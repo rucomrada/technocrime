@@ -140,7 +140,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(rgba(26, 58, 92, 0.5), rgba(26, 58, 92, 0.9)),
+  background: linear-gradient(rgba(26, 58, 92, 0.5), rgba(255, 255, 255, 0.9)),
               url('./media/HERO-198947329123-510.jpg') center/cover;
   background-attachment: fixed;
   text-align: center;
