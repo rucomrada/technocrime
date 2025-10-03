@@ -152,6 +152,12 @@ img {
   padding: 2rem;
   max-width: 900px;
 }
+.hero-logo {
+  max-width: 200px;
+  height: auto;
+  filter: drop-shadow(0 10px 30px rgba(0, 0, 0, 0.5));
+  animation: float 3s ease-in-out infinite;
+}
 
 .hero-buttons .btn {
   margin: 0.5rem;
