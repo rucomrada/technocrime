@@ -52,6 +52,7 @@ This website showcases TPS's comprehensive security services, including manned g
 ```
 project/
 ├── media/
+├── public/
 ├── index.html              # Home page
 ├── about.html              # About Us page
 ├── services.html           # Services page
