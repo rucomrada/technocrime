@@ -168,6 +168,40 @@ img {
   }
 }
 
+/*NEW HERO*/
+.hero-content-wrapper {
+  z-index: 2;
+  padding: 2rem;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.hero-logo-side {
+  flex-shrink: 0;
+}
+
+.hero-logo-left {
+  max-width: 250px;
+  height: auto;
+  filter: drop-shadow(0 10px 30px rgba(0, 0, 0, 0.5));
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.hero-text-content {
+  flex: 1;
+}
+/*NEW HERO*/
 
 .hero-buttons .btn {
   margin: 0.5rem;
