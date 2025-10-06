@@ -155,7 +155,7 @@ img {
 .hero-logo {
   max-width: 200px;
   height: auto;
-  filter: drop-shadow(0 10px 30px rgba(0, 0, 0, 0.5));
+  filter: drop-shadow(0 10px 30px rgba(255, 255, 255, 0.5));
   animation: float 3s ease-in-out infinite;
 }
 
@@ -185,7 +185,7 @@ img {
 .hero-logo-left {
   max-width: 250px;
   height: auto;
-  filter: drop-shadow(0 10px 30px rgba(0, 0, 0, 0.5));
+  filter: drop-shadow(0 10px 30px rgba(255, 255, 255, 0.5));
   animation: float 3s ease-in-out infinite;
 }
 
