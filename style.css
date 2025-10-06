@@ -598,6 +598,22 @@ footer a:hover {
     font-size: 2rem;
   }
 
+  /*START*/
+  .hero-content-wrapper {
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+  }
+
+  .hero-text-content h1 {
+    font-size: 2rem;
+  }
+
+  .hero-logo-left {
+    max-width: 180px;
+  }
+  /*END*/
+
   .page-header {
     padding: 120px 0 60px;
   }
