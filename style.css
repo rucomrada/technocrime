@@ -362,6 +362,18 @@ img {
   background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.8)),
               url('https://raw.githubusercontent.com/rucomrada/topscore/refs/heads/main/assets/images/PHIL.png') center/cover;
 }
+.freshcuts-card {
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.8)),
+              url('https://raw.githubusercontent.com/rucomrada/topscore/refs/heads/main/assets/images/FRESHCUTS.png') center/cover;
+}
+.semaka-card {
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.8)),
+              url('https://raw.githubusercontent.com/rucomrada/topscore/refs/heads/main/assets/images/SEM.png') center/cover;
+}
+.expressway-card {
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.8)),
+              url('https://raw.githubusercontent.com/rucomrada/topscore/refs/heads/main/assets/images/EXPRESSWAY.png') center/cover;
+}
 
 .client-card:hover {
   box-shadow: 0 5px 20px rgba(0,0,0,0.15);
