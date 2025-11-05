@@ -181,13 +181,13 @@ img {
   background-repeat: no-repeat;
   background-attachment: fixed;
   z-index: 0;
-  /* animation: backgroundSlideIn 1.2s cubic-bezier(0.4, 0, 0.2, 1) forwards; */
-   animation: backgroundSlideIn 0.6s cubic-bezier(0.6, 0, 0.4, 1) forwards;
+  animation: backgroundSlideIn 1.2s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+   /* animation: backgroundSlideIn 0.6s cubic-bezier(0.6, 0, 0.4, 1) forwards; */
 }
 
 .hero-background.transition-out {
-  /* animation: backgroundSlideOut 0.8s cubic-bezier(0.4, 0, 0.2, 1) forwards; */
-  animation: backgroundSlideOut 0.4s cubic-bezier(0.6, 0, 0.4, 1) forwards;
+  animation: backgroundSlideOut 0.8s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  /* animation: backgroundSlideOut 0.4s cubic-bezier(0.6, 0, 0.4, 1) forwards; */
 }
 
 @keyframes backgroundSlideIn {
