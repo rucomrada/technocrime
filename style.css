@@ -141,7 +141,7 @@ img {
   align-items: center;
   justify-content: center;
   background: linear-gradient(rgba(26, 58, 92, 0.3), rgba(26, 58, 92, 0.9)),
-              url('./01-RESPONSE-972546425874.jpeg') center/cover;
+              url('./media/01-RESPONSE-972546425874.jpeg') center/cover;
   background-attachment: fixed;
   text-align: center;
   color: var(--white);
