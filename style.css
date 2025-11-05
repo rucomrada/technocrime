@@ -134,7 +134,7 @@ img {
   box-shadow: 0 5px 15px rgba(220, 53, 69, 0.3);
 }
 
-.hero {
+/* .hero {
   position: relative;
   height: 100vh;
   display: flex;
@@ -145,7 +145,71 @@ img {
   background-attachment: fixed;
   text-align: center;
   color: var(--white);
+} */
+
+.hero {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-attachment: fixed;
+  text-align: center;
+  color: var(--white);
+  overflow: hidden;
 }
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(rgba(26, 58, 92, 0.3), rgba(26, 58, 92, 0.9));
+  z-index: 1;
+}
+
+.hero-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  z-index: 0;
+  animation: backgroundSlideIn 1.2s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+.hero-background.transition-out {
+  animation: backgroundSlideOut 0.8s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+@keyframes backgroundSlideIn {
+  from {
+    opacity: 0;
+    transform: scale(1.05);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes backgroundSlideOut {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+}
+
 
 .hero-content {
   z-index: 2;
