@@ -8,8 +8,8 @@ const heroBackgrounds = [
  './media/01-RESPONSE-972546425874.jpeg?auto=compress&cs=tinysrgb&w=1600',
   './media/HERO-198947329123-510.jpg?auto=compress&cs=tinysrgb&w=1600',
   './media/GLE_7225A.jpg?auto=compress&cs=tinysrgb&w=1600',
-  './media/GLE_7322.jpg?auto=compress&cs=tinysrgb&w=1600',
-  './media/GLE_7153.jpg?auto=compress&cs=tinysrgb&w=1600',
+  './media/GLE_7322A.jpg?auto=compress&cs=tinysrgb&w=1600',
+  './media/GLE_7153A.jpg?auto=compress&cs=tinysrgb&w=1600',
   './media/LOGOTPS.png?auto=compress&cs=tinysrgb&w=1600'
 ];
 
