@@ -5,11 +5,11 @@ AOS.init({
 });
 
 const heroBackgrounds = [
-  'https://images.pexels.com/photos/8728382/pexels-photo-8728382.jpeg?auto=compress&cs=tinysrgb&w=1600',
-  'https://images.pexels.com/photos/8728563/pexels-photo-8728563.jpeg?auto=compress&cs=tinysrgb&w=1600',
-  'https://images.pexels.com/photos/6077326/pexels-photo-6077326.jpeg?auto=compress&cs=tinysrgb&w=1600',
-  'https://images.pexels.com/photos/4424303/pexels-photo-4424303.jpeg?auto=compress&cs=tinysrgb&w=1600',
-  'https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=1600'
+ './media/01-RESPONSE-972546425874.jpeg?auto=compress&cs=tinysrgb&w=1600',
+  './media/HERO-198947329123-510.jpg?auto=compress&cs=tinysrgb&w=1600',
+  './media/GLE_7225A.jpg?auto=compress&cs=tinysrgb&w=1600',
+  './media/GLE_7322.jpg?auto=compress&cs=tinysrgb&w=1600',
+  './media/LOGOTPS.png?auto=compress&cs=tinysrgb&w=1600'
 ];
 
 let currentBackgroundIndex = 0;
@@ -122,11 +122,11 @@ document.addEventListener('DOMContentLoaded', function() {
 // });
 
 // const heroBackgrounds = [
-//   './media/01-RESPONSE-972546425874.jpeg?auto=compress&cs=tinysrgb&w=1600',
-//   './media/HERO-198947329123-510.jpg?auto=compress&cs=tinysrgb&w=1600',
-//   './media/GLE_7225A.jpg?auto=compress&cs=tinysrgb&w=1600',
-//   './media/GLE_7322.jpg?auto=compress&cs=tinysrgb&w=1600',
-//   './media/LOGOTPS.png?auto=compress&cs=tinysrgb&w=1600'
+  // './media/01-RESPONSE-972546425874.jpeg?auto=compress&cs=tinysrgb&w=1600',
+  // './media/HERO-198947329123-510.jpg?auto=compress&cs=tinysrgb&w=1600',
+  // './media/GLE_7225A.jpg?auto=compress&cs=tinysrgb&w=1600',
+  // './media/GLE_7322.jpg?auto=compress&cs=tinysrgb&w=1600',
+  // './media/LOGOTPS.png?auto=compress&cs=tinysrgb&w=1600'
 // ];
 
 // let currentBackgroundIndex = 0;
