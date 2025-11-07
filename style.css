@@ -181,34 +181,31 @@ img {
   background-repeat: no-repeat;
   background-attachment: fixed;
   z-index: 0;
-  animation: backgroundSlideIn 0.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
-   /* animation: backgroundSlideIn 0.6s cubic-bezier(0.6, 0, 0.4, 1) forwards; */
 }
 
-.hero-background.transition-out {
-  animation: backgroundSlideOut 0.8s cubic-bezier(0.4, 0, 0.2, 1) forwards;
-  /* animation: backgroundSlideOut 0.4s cubic-bezier(0.6, 0, 0.4, 1) forwards; */
+.hero-background-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 0;
+  animation: zoomFadeIn 1.2s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  z-index: 1;
 }
 
-@keyframes backgroundSlideIn {
+@keyframes zoomFadeIn {
   from {
     opacity: 0;
-    transform: scale(1.05);
+    transform: scale(1.1);
   }
   to {
     opacity: 1;
     transform: scale(1);
-  }
-}
-
-@keyframes backgroundSlideOut {
-  from {
-    opacity: 1;
-    transform: scale(1);
-  }
-  to {
-    opacity: 0;
-    transform: scale(0.95);
   }
 }
 
