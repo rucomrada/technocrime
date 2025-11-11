@@ -5,12 +5,12 @@ AOS.init({
 });
 
 const heroBackgrounds = [
- 'https://raw.githubusercontent.com/rucomrada/technocrime/media/01-RESPONSE-972546425874.jpeg?auto=compress&cs=tinysrgb&w=1600',
-  'https://raw.githubusercontent.com/rucomrada/technocrime/media/HERO-198947329123-510.jpg?auto=compress&cs=tinysrgb&w=1600',
-  'https://raw.githubusercontent.com/rucomrada/technocrime/media/GLE_7225A.jpg?auto=compress&cs=tinysrgb&w=1600',
-  'https://raw.githubusercontent.com/rucomrada/technocrime/media/GLE_7322AA.jpg?auto=compress&cs=tinysrgb&w=1600',
-  'https://raw.githubusercontent.com/rucomrada/technocrime/media/GLE_7153A.jpg?auto=compress&cs=tinysrgb&w=1600',
-  'https://raw.githubusercontent.com/rucomrada/technocrime/media/LOGOTPS.png?auto=compress&cs=tinysrgb&w=1600'
+ 'https://raw.githubusercontent.com/rucomrada/technocrime/refs/heads/main/media/01-RESPONSE-972546425874.jpeg?auto=compress&cs=tinysrgb&w=1600',
+  'https://raw.githubusercontent.com/rucomrada/technocrime/refs/heads/main/media/HERO-198947329123-510.jpg?auto=compress&cs=tinysrgb&w=1600',
+  'https://raw.githubusercontent.com/rucomrada/technocrime/refs/heads/main/media/GLE_7225A.jpg?auto=compress&cs=tinysrgb&w=1600',
+  'https://raw.githubusercontent.com/rucomrada/technocrime/refs/heads/main/media/GLE_7322AA.jpg?auto=compress&cs=tinysrgb&w=1600',
+  'https://raw.githubusercontent.com/rucomrada/technocrime/refs/heads/main/media/GLE_7153A.jpg?auto=compress&cs=tinysrgb&w=1600',
+  'https://raw.githubusercontent.com/rucomrada/technocrime/refs/heads/main/media/LOGOTPS.png?auto=compress&cs=tinysrgb&w=1600'
 ];
 
 let currentBackgroundIndex = 0;
