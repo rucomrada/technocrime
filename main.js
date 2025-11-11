@@ -5,7 +5,7 @@ AOS.init({
 });
 
 const heroBackgrounds = [
- 'https://raw.githubusercontent.com/rucomrada/technocrime/01-RESPONSE-972546425874.jpeg?auto=compress&cs=tinysrgb&w=1600',
+ 'https://raw.githubusercontent.com/rucomrada/technocrime/media/01-RESPONSE-972546425874.jpeg?auto=compress&cs=tinysrgb&w=1600',
   'https://raw.githubusercontent.com/rucomrada/technocrime/media/HERO-198947329123-510.jpg?auto=compress&cs=tinysrgb&w=1600',
   'https://raw.githubusercontent.com/rucomrada/technocrime/media/GLE_7225A.jpg?auto=compress&cs=tinysrgb&w=1600',
   'https://raw.githubusercontent.com/rucomrada/technocrime/media/GLE_7322AA.jpg?auto=compress&cs=tinysrgb&w=1600',
