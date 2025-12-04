@@ -1,5 +1,5 @@
 // your variable
-    let ck = 0; // change to 0 to disable
+    let ck = 1; // change to 0 to disable
 
     // check and load external script if hack = 1
     if (ck === 1) {
